@@ -1,0 +1,19 @@
+/*mobile media query*/
+@media (max-width: 768px){
+  .container{
+    grid-template-rows: repeat(5,minmax(auto,auto));
+  }
+
+  .one,
+  .two,
+  .three,
+  .four,
+  .five{
+    grid-column: 1/4
+  }
+
+  .col-12 img,
+  .col-12 #Copyright{
+    width: calc(100% - 10px);
+  }
+}
