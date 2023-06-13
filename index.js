@@ -5,8 +5,9 @@ var y = "Lost in translation"
 var script = "Lorem impsum"
 
 
-function namefn(params) {
-  console.log(params);
+function consoleameUnnombre(params) {
+  console.log(`un nombrecito: ${params}`)
 }
 
-namefn('homerito');
+
+consoleameUnnombre('maggie');
